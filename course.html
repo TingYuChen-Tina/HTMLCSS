@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YogaFeline｜台中•̀貓•́瑜珈</title>
+    <meta name="description" content="以HTMLCSS做個多頁式網頁看看，後續增加Javascript效果">
+    <meta name="author" content="陳亭伃">
+
+    <meta property="og:title" content="台中•̀貓•́瑜珈" />
+    <meta property="og:description" content="做個多頁式網頁看看，後續增加響應式網頁與Javascript效果" />
+    <meta property="og:url" content="我本來要是個網址"/>
+    <meta property="og:image" content="https://www.meixingnan.com/zh-hk/qiche/lxz/79486.html"/>
+    <meta property="og:type" content="website" />
+
+    <link rel="stylesheet" href="css/all.css">
+    <script src="https://kit.fontawesome.com/97dc12aeb7.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="wrap">
+    <div class="header">
+        <h1><a href="index.html">YogaFeline</a></h1>
+        <ul>
+            <li><a href="index.html">首頁</a></li>
+            <li><a href="team.html">師資介紹</a></li>
+            <li><a href="course.html">課程表</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </div>
+    <div class="contentCourse">
+        <h2>Yoga Feline秋季課程表</h2>
+        <p>為了貓咪們的課程品質，本館採全預約制．</p>
+        <table class="timeTable">
+            <tr>
+                <th></th>
+                <th>週一</th>
+                <th>週二</th>
+                <th>週三</th>
+                <th>週四</th>
+                <th>週五</th>
+                <th>週六</th>
+            </tr>
+            <tr>
+                <td class="time">9:30-12:30</td>
+                <td class="blank">休館</td>
+                <td><h3>有氧燃脂</h3>斑老師</td>
+                <td class="blank">設施維護</td>
+                <td><h3>療癒美甲</h3>米漿老師</td>
+                <td><h3>療癒美甲</h3>米漿老師</td>
+                <td><h3>室內登高</h3>橘老師</td>
+            </tr>
+            <tr>
+                <td class="time">13:30-15:30</td>
+                <td><h3>室內登高</h3>橘老師</td>
+                <td><h3>基礎體能</h3>魚老師</td>
+                <td><h3>室內登高</h3>橘老師</td>
+                <td><h3>基礎體能</h3>魚老師</td>
+                <td><h3>療癒美甲</h3>米漿老師</td>
+                <td><h3>基礎體能</h3>魚老師</td>
+            </tr>
+            <tr>
+
+                <td class="time">16:00-18:00</td>
+                <td><h3>基礎體能</h3>魚老師</td>
+                <td><h3>基礎體能</h3>魚老師</td>
+                <td><h3>基礎體能</h3>魚老師</td>
+                <td><h3>基礎體能</h3>魚老師</td>
+                <td><h3>有氧燃脂</h3>斑老師</td>
+                <td class="blank">休館</td>
+            </tr>
+            <tr>
+                <td class="time">19:00-21:30</td>
+                <td><h3>療癒美甲</h3>米漿老師</td>
+                <td><h3>室內登高</h3>橘老師</td>
+                <td><h3>室內登高</h3>橘老師</td>
+                <td  class="blank">館內人員<br>進修時間</td>
+                <td><h3>有氧燃脂</h3>斑老師</td>
+                <td  class="blank">休館</td>    
+            </tr>
+
+        </table>
+
+        <h3>秋季課程異動公告</h3>
+        <ul>
+            <li><i class="fa-solid fa-cat"></i>9/1-9/3員工進修取材，休館三天</li>
+            <li><i class="fa-solid fa-cat"></i>10/10國定假日休館一天</li>
+            <li><i class="fa-solid fa-cat"></i>12/23(五)米漿老師休假，療癒美甲由橘老師代課</li>
+        </ul>
+
+        <div class="picAndForm">
+            <div class="sidePic"></div>
+            <form action="#" class="reservation">
+               <h3>預約體驗</h3>
+               <div class="threeArea">       
+                <div class="colum personal">
+                    <h4>想預約的課程</h4>
+                    <select name="courseBooking">
+                        <option value="都可接受">都可接受</option>
+                        <option value="有氧燃脂">有氧燃脂</option>
+                        <option value="室內登高">室內登高</option>
+                        <option value="基礎體能">基礎體能</option>
+                        <option value="療癒美甲">療癒美甲</option>
+                        <option value="有氧燃脂">追獵實作</option>
+                        <option value="有氧燃脂">埋伏實作</option>
+                        <option value="有氧燃脂">隱身躲藏</option>
+                        <option value="有氧燃脂">開櫃實作</option>
+                    </select>
+                    <label for="name">姓名 Name</label>
+                    <input id="name" type="text" name="name" placeholder="請輸入您的大名">
+                    <label for="tel">電話 Phone</label>
+                    <input id="tel" type="tel" name="tel" placeholder="聯絡電話">
+                    <label for="mail">信箱 Mail</label>
+                    <input id="mail" type="email" name="mail" placeholder="電子信箱">    
+                </div>            
+                <div class="colum">
+                    <h4>想說的話</h4>
+                    <textarea name="content"  placeholder="是否初學、是否有舊傷、任何需要會館注意的事項...等"></textarea>
+                </div>
+            </div>
+            <input type="submit" value="送出預約 →" class="btn">
+            </form>
+        </div>
+    </div>
+
+    <div class="footerMain">        
+        <ul>
+            <li><i class="fa-solid fa-location-dot"></i>地址：408台中市南屯區益豐路三段399號</li>
+            <li><i class="fa-solid fa-phone"></i>電話：04-123456</li>
+            <li><i class="fa-solid fa-envelope"></i>mail：vacanteress@gmail.com</li>
+        </ul>
+        <a href="index.html"><img src="images/Logo2.png" alt=""></a>
+    </div>
+    <p class="footerBottom">
+        © 2022 YogaFeline｜All right reserved   部分圖片來自網路，僅做為學習用途。
+    </p>
+</div>
+</body>
+</html>
