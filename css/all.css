@@ -70,7 +70,6 @@ table {
 }
 .header ul{
 	display: flex;
-	/* justify-content: flex-end; */
 	margin-right: 16px;
 }
 .header ul>li a{
@@ -165,7 +164,6 @@ table {
 	font-size: 36px;
 	font-weight: bold;
 	padding: 24px;
-	/* border-bottom: 1px solid #3b3e2b;	 */
 }
 .content >p{
 	text-align: center;
@@ -240,7 +238,6 @@ table {
 .btnToCourse{
 	text-decoration: none;
 	font-size: 24px;
-	/* font-weight: bold; */
 	color: #939650;
 	padding: 24px;
 	border: #939650 2px solid;
@@ -444,19 +441,12 @@ table {
 	font-size: 24px;
 	font-weight: bolder;
 	color: #e75f68;
+	text-shadow: 1px 1px 1px #674d468e;
 	padding: 36px 48px 15px 48px;
-	/* border-bottom: #4D5139 1px solid;	 */
 }
 .QABox p{
-	/* height: 0;
-	overflow: hidden;
-	transition: 0.5s height;
-	-webkit-transition: 0.5s height;
-	-moz-transition: 0.5s height; */
+
 	font-size: 22px;
 	line-height: 1.5;
 	padding: 0 48px 36px 48px;
 }
-/* .QABox h3:target .fold{
-	height: 400px;
-} */
