@@ -295,13 +295,14 @@ table {
 	line-height: 1.5;
 }
 .teachWhich {
+	font-weight: bold;
 	color: #e75f68;
 	text-shadow: 1px 1px 1px #674d468e;
 	text-decoration: none;
 }
 .intro a:hover{
 	text-shadow: none;
-	font-weight: bold;
+	font-weight: 800;
 }
 
 /*course*/
